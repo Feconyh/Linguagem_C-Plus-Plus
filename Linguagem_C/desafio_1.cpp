@@ -2,7 +2,6 @@
 
 using namespace std;
 
-
 int funcao(int a){
     int resultado;
     resultado = (a*a - 3*a + 5);
