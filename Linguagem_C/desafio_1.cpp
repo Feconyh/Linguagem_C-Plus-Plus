@@ -5,7 +5,8 @@ using namespace std;
 int funcao(int a){
     int resultado;
     resultado = (a*a - 3*a + 5);
-    return resultado;
+    
+    cout << resultado;
 }
 
 int main(){
@@ -13,8 +14,8 @@ int main(){
 
     cout << "Informe o valor de (a): ";
     cin >> a;
-    cout << funcao(a);
 
+    funcao(a);
 
     return 0;
 }
